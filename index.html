@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="stilus.css" />
+        <title>Hibrid lény generátor</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="megjelenit.js"></script>
+        <script src="adatok.js"></script>
+    </head>
+    <body>
+        <main>
+            <header><h1>Hibrid lény generátor</h1></header>
+            <nav>
+                <form>
+                    <label for="osztalyok">Válassz osztályt!</label>
+
+                    <select id="osztaly">
+                        <option value="nincs">Válassz osztályt!</option>
+                        <option value="nGRA1A">GRA1A</option>
+                        <option value="nGRA1B">GRA1B</option>
+                        <option value="nGRA2A">GRA2A</option>
+                        <option value="nGRA2B">GRA2B</option>
+                        <option value="nDEK1A">DEK1A</option>
+                        <option value="fGRA">fGRA</option>
+                    </select>
+
+                    <input type="button" id="nyomtat" value="Nyomtat" /><br />
+                </form>
+            </nav>
+            <article></article>
+        </main>
+        <footer class="print-footer">
+            Ennek az oldalnak az eredeti elérhetősége:
+            <strong>http://valami.hu/</strong> oldalon érhető el.<br />
+        </footer>
+    </body>
+</html>
